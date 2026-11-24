@@ -211,6 +211,13 @@
   .zone-card h3{font-size:1.8rem; margin-bottom:10px;}
   .zone-card p{margin-bottom:22px; color:#3b2a06;}
 
+  /* Avis */
+  .reviews{display:flex; align-items:center; justify-content:space-between; gap:28px; flex-wrap:wrap; background:var(--card); border:1px solid var(--line); border-radius:22px; padding:32px 36px; box-shadow:var(--shadow);}
+  .reviews .stars{color:var(--amber); font-size:1.5rem; letter-spacing:3px; margin-bottom:6px;}
+  .reviews h2{font-size:clamp(1.6rem,3vw,2.1rem); margin-bottom:6px;}
+  .reviews p{color:var(--muted); max-width:58ch;}
+  @media (max-width:640px){ .reviews{padding:26px 22px;} .reviews .btn{width:100%;} }
+
   /* FAQ */
   .faq{max-width:840px;}
   details{background:var(--card); border:1px solid var(--line); border-radius:14px; margin-bottom:10px; overflow:hidden;}
@@ -461,6 +468,19 @@
   </div>
 </section>
 
+<section id="avis" style="padding-top:0;">
+  <div class="wrap">
+    <div class="reviews">
+      <div>
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <h2>Ils nous ont fait confiance</h2>
+        <p>Retrouvez les avis de nos clients sur notre fiche Google. Vous avez fait appel à ElecDépanne ? Votre avis aide d'autres habitants de la Sarthe à trouver un électricien de confiance.</p>
+      </div>
+      <a class="btn btn-dark" href="https://g.page/r/CQ3mkK0tFD2lEAE/review" target="_blank" rel="noopener">⭐ Laisser un avis Google</a>
+    </div>
+  </div>
+</section>
+
 <section id="faq" style="padding-top:0;">
   <div class="wrap faq">
     <div class="head">
@@ -532,6 +552,7 @@
           <li><a href="#apropos">À propos</a></li>
           <li><a href="#tarifs">Tarifs</a></li>
           <li><a href="#zone">Zone d'intervention</a></li>
+          <li><a href="https://g.page/r/CQ3mkK0tFD2lEAE/review" target="_blank" rel="noopener">Laisser un avis Google</a></li>
           <li><a href="mentions-legales.html">Mentions légales</a></li>
         </ul>
       </div>
