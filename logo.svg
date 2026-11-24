@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ElecDepanne">
+  <title>ElecDepanne</title>
+  <rect width="64" height="64" rx="14" fill="#14181c"/>
+  <path d="M32 9 13 19v13c0 11.5 8 20.6 19 23.5 11-2.9 19-12 19-23.5V19L32 9Z" fill="none" stroke="#f2a71b" stroke-width="3" stroke-linejoin="round" opacity=".35"/>
+  <path d="M35.5 15 22 35h9.2l-3.4 15L43 29h-9.6l2.1-14Z" fill="#f2a71b" stroke="#f2a71b" stroke-width="1.5" stroke-linejoin="round"/>
+</svg>

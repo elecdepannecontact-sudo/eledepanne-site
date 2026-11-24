@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Électricien dépannage Le Mans 24h/24 – ElecDepanne | Cyril Lumineau</title>
+<meta name="description" content="ElecDepanne, électricien de dépannage au Mans et en Sarthe (72) : panne de courant, disjoncteur, tableau électrique, mise en sécurité. Joignable 24h/24, 7j/7. Devis gratuit.">
+<link rel="canonical" href="https://elecdepanne.com/">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#14181c">
+
+<!-- Icônes -->
+<link rel="icon" type="image/svg+xml" href="logo.svg">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+<!-- Partage réseaux sociaux / WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="ElecDepanne">
+<meta property="og:title" content="ElecDepanne – Électricien dépannage au Mans, 24h/24 et 7j/7">
+<meta property="og:description" content="Panne de courant, disjoncteur, tableau électrique, mise en sécurité. Le Mans et alentours. Devis gratuit.">
+<meta property="og:url" content="https://elecdepanne.com/">
+<meta property="og:image" content="https://elecdepanne.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Données structurées pour Google (fiche entreprise locale) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Electrician",
+  "@id": "https://elecdepanne.com/#entreprise",
+  "name": "ElecDepanne",
+  "url": "https://elecdepanne.com/",
+  "logo": "https://elecdepanne.com/logo.svg",
+  "image": "https://elecdepanne.com/og-image.png",
+  "description": "Électricien de dépannage au Mans et en Sarthe : panne de courant, disjoncteur, tableau électrique, mise en sécurité, interphonie, rénovation.",
+  "telephone": "+33780823273",
+  "email": "elecdepannecontact@gmail.com",
+  "founder": { "@type": "Person", "name": "Cyril Lumineau" },
+  "taxID": "45075237300040",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "2B rue Alexandre Martin",
+    "addressLocality": "Le Grand-Lucé",
+    "postalCode": "72150",
+    "addressRegion": "Pays de la Loire",
+    "addressCountry": "FR"
+  },
+  "areaServed": [
+    "Le Mans","Allonnes","Arnage","Changé","Coulaines","Sargé-lès-le-Mans",
+    "La Chapelle-Saint-Aubin","Ruaudin","Mulsanne","Yvré-l'Évêque",
+    "Parigné-l'Évêque","Le Grand-Lucé","La Chartre-sur-le-Loir",
+    { "@type": "AdministrativeArea", "name": "Sarthe" }
+  ],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  },
+  "priceRange": "Sur devis"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#101418;
+    --ink-2:#1a2027;
+    --ink-3:#252d36;
+    --paper:#f4f2ed;
+    --card:#ffffff;
+    --amber:#f5a623;
+    --amber-2:#d98c0a;
+    --amber-soft:#fff4df;
+    --steel:#35596b;
+    --line:#e3ded3;
+    --text:#1b1f24;
+    --muted:#59626b;
+    --radius:18px;
+    --shadow:0 1px 2px rgba(16,20,24,.04), 0 8px 24px rgba(16,20,24,.06);
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth; scroll-padding-top:84px;}
+  body{font-family:'Inter',system-ui,sans-serif; background:var(--paper); color:var(--text); line-height:1.6; -webkit-font-smoothing:antialiased;}
+  h1,h2,h3,h4{font-family:'Barlow Condensed',sans-serif; font-weight:700; line-height:1.05; color:var(--ink); letter-spacing:.005em;}
+  a{color:inherit; text-decoration:none;}
+  img,svg{display:block; max-width:100%;}
+  .wrap{max-width:1160px; margin:0 auto; padding:0 24px;}
+  .sr-only{position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0);}
+
+  /* Boutons */
+  .btn{display:inline-flex; align-items:center; justify-content:center; gap:9px; padding:13px 22px; border-radius:12px; font-weight:600; font-size:.95rem; border:1.5px solid transparent; cursor:pointer; transition:transform .15s, background .15s, border-color .15s, color .15s; white-space:nowrap;}
+  .btn:hover{transform:translateY(-1px);}
+  .btn-amber{background:var(--amber); color:var(--ink);}
+  .btn-amber:hover{background:#ffb83d;}
+  .btn-wa{background:#25d366; color:#06240f;}
+  .btn-wa:hover{background:#3be07a;}
+  .btn-ghost{border-color:rgba(255,255,255,.25); color:#fff;}
+  .btn-ghost:hover{border-color:#fff;}
+  .btn-dark{background:var(--ink); color:#fff;}
+  .btn-dark:hover{background:var(--ink-3);}
+  .btn-line{border-color:var(--line); color:var(--ink); background:var(--card);}
+  .btn-line:hover{border-color:var(--ink);}
+
+  /* Header */
+  header.site{position:sticky; top:0; z-index:50; background:rgba(244,242,237,.86); backdrop-filter:saturate(1.4) blur(12px); -webkit-backdrop-filter:saturate(1.4) blur(12px); border-bottom:1px solid var(--line);}
+  .nav{display:flex; align-items:center; justify-content:space-between; height:72px; gap:20px;}
+  .brand{display:flex; align-items:center; gap:11px;}
+  .brand img{width:42px; height:42px;}
+  .brand-name{font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:1.55rem; color:var(--ink); line-height:1;}
+  .brand-name span{color:var(--amber-2);}
+  .brand-sub{display:block; font-family:'Inter',sans-serif; font-size:.7rem; font-weight:500; color:var(--muted); letter-spacing:.04em; margin-top:3px;}
+  nav.links{display:flex; gap:26px;}
+  nav.links a{font-size:.92rem; font-weight:500; color:var(--muted);}
+  nav.links a:hover{color:var(--ink);}
+  .nav-cta{display:flex; gap:10px;}
+  .burger{display:none; width:44px; height:44px; border-radius:10px; border:1px solid var(--line); background:var(--card); cursor:pointer; align-items:center; justify-content:center;}
+  .mobile-menu{display:none; border-top:1px solid var(--line); padding:12px 24px 20px; background:var(--paper);}
+  .mobile-menu a{display:block; padding:12px 0; font-weight:600; border-bottom:1px solid var(--line);}
+  .mobile-menu.open{display:block;}
+
+  /* Hero */
+  .hero{background:var(--ink); color:#fff; position:relative; overflow:hidden;}
+  .hero::before{content:""; position:absolute; inset:0; background:radial-gradient(ellipse 60% 70% at 85% 10%, rgba(245,166,35,.22), transparent 60%), radial-gradient(ellipse 50% 60% at 0% 100%, rgba(53,89,107,.35), transparent 60%); pointer-events:none;}
+  .hero::after{content:""; position:absolute; inset:0; background-image:linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px); background-size:44px 44px; mask-image:linear-gradient(to bottom, #000 30%, transparent); -webkit-mask-image:linear-gradient(to bottom, #000 30%, transparent); pointer-events:none;}
+  .hero .wrap{position:relative; z-index:1; display:grid; grid-template-columns:1.2fr .8fr; gap:56px; align-items:center; padding-top:88px; padding-bottom:88px;}
+  .pill{display:inline-flex; align-items:center; gap:9px; padding:7px 14px; border-radius:999px; background:rgba(255,255,255,.06); border:1px solid rgba(255,255,255,.12); font-size:.82rem; font-weight:500; color:#e7ebee; margin-bottom:24px;}
+  .live{width:8px; height:8px; border-radius:50%; background:#3ddc84; box-shadow:0 0 0 0 rgba(61,220,132,.6); animation:pulse 2s infinite;}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(61,220,132,.55);}70%{box-shadow:0 0 0 9px rgba(61,220,132,0);}100%{box-shadow:0 0 0 0 rgba(61,220,132,0);}}
+  .hero h1{font-size:clamp(2.6rem,5.4vw,4.3rem); color:#fff; margin-bottom:22px;}
+  .hero h1 em{font-style:normal; color:var(--amber);}
+  .hero .lead{font-size:1.12rem; color:#bfc7cd; max-width:54ch; margin-bottom:32px;}
+  .hero-cta{display:flex; gap:12px; flex-wrap:wrap; margin-bottom:36px;}
+  .hero-trust{display:flex; gap:28px; flex-wrap:wrap; color:#aeb7be; font-size:.9rem;}
+  .hero-trust div{display:flex; align-items:center; gap:8px;}
+
+  .hero-card{background:linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03)); border:1px solid rgba(255,255,255,.1); border-radius:22px; padding:28px; backdrop-filter:blur(6px);}
+  .hero-card h2{color:#fff; font-size:1.5rem; margin-bottom:6px;}
+  .hero-card > p{color:#aeb7be; font-size:.92rem; margin-bottom:20px;}
+  .steps-mini{list-style:none; display:grid; gap:12px; margin-bottom:22px;}
+  .steps-mini li{display:flex; gap:14px; align-items:flex-start; padding:14px; border-radius:14px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.06);}
+  .steps-mini b{flex-shrink:0; width:30px; height:30px; border-radius:9px; background:var(--amber); color:var(--ink); display:flex; align-items:center; justify-content:center; font-family:'Barlow Condensed',sans-serif; font-size:1.05rem;}
+  .steps-mini strong{display:block; color:#fff; font-size:.95rem; font-weight:600;}
+  .steps-mini span{color:#9fa9b1; font-size:.85rem;}
+  .hero-card .btn{width:100%;}
+
+  /* Sections */
+  section{padding:96px 0;}
+  .head{max-width:680px; margin-bottom:48px;}
+  .kicker{display:inline-flex; align-items:center; gap:8px; color:var(--amber-2); font-weight:600; font-size:.85rem; letter-spacing:.06em; text-transform:uppercase; margin-bottom:14px;}
+  .kicker::before{content:""; width:18px; height:2px; background:currentColor; border-radius:2px;}
+  .head h2{font-size:clamp(2rem,3.6vw,2.9rem); margin-bottom:14px;}
+  .head p{color:var(--muted); font-size:1.05rem;}
+
+  /* Services */
+  .services{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  .svc{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:28px; box-shadow:var(--shadow); transition:transform .2s, border-color .2s;}
+  .svc:hover{transform:translateY(-3px); border-color:var(--amber);}
+  .svc .ico{width:48px; height:48px; border-radius:13px; background:var(--amber-soft); display:flex; align-items:center; justify-content:center; margin-bottom:18px;}
+  .svc h3{font-size:1.4rem; margin-bottom:8px;}
+  .svc p{color:var(--muted); font-size:.94rem;}
+  .svc.urgent{background:var(--ink); border-color:var(--ink); color:#fff;}
+  .svc.urgent h3{color:#fff;}
+  .svc.urgent p{color:#b6bfc6;}
+  .svc.urgent .ico{background:rgba(245,166,35,.15);}
+  .tag{display:inline-block; font-size:.72rem; font-weight:600; padding:3px 9px; border-radius:999px; background:var(--amber); color:var(--ink); margin-left:8px; vertical-align:middle; font-family:'Inter',sans-serif; letter-spacing:.02em;}
+
+  /* À propos */
+  .about{background:var(--card); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .about-grid{display:grid; grid-template-columns:.9fr 1.1fr; gap:64px; align-items:center;}
+  .about-visual{position:relative; aspect-ratio:1/1; border-radius:24px; background:var(--ink); overflow:hidden; display:flex; align-items:center; justify-content:center;}
+  .about-visual::before{content:""; position:absolute; inset:0; background:radial-gradient(circle at 30% 20%, rgba(245,166,35,.28), transparent 55%);}
+  .about-visual img{width:44%; position:relative;}
+  .about-badge{position:absolute; left:20px; right:20px; bottom:20px; background:rgba(255,255,255,.95); border-radius:16px; padding:16px 18px; display:flex; justify-content:space-between; align-items:center; gap:12px;}
+  .about-badge strong{font-family:'Barlow Condensed',sans-serif; font-size:1.3rem; color:var(--ink); display:block; line-height:1.1;}
+  .about-badge span{font-size:.82rem; color:var(--muted);}
+  .about p{color:var(--muted); margin-bottom:16px; font-size:1.02rem;}
+  .about p strong{color:var(--text);}
+  .checks{list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:12px 24px; margin-top:24px;}
+  .checks li{display:flex; gap:10px; align-items:flex-start; font-size:.95rem; font-weight:500;}
+  .checks svg{flex-shrink:0; margin-top:3px;}
+
+  /* Méthode */
+  .process{display:grid; grid-template-columns:repeat(4,1fr); gap:18px; counter-reset:s;}
+  .step{position:relative; padding:28px 24px; border-radius:var(--radius); background:var(--card); border:1px solid var(--line);}
+  .step .n{font-family:'Barlow Condensed',sans-serif; font-weight:800; font-size:3rem; line-height:1; color:var(--amber); margin-bottom:12px;}
+  .step h3{font-size:1.25rem; margin-bottom:8px;}
+  .step p{font-size:.92rem; color:var(--muted);}
+
+  /* Tarifs */
+  .pricing{background:var(--ink); color:#fff;}
+  .pricing .head h2{color:#fff;}
+  .pricing .head p{color:#aeb7be;}
+  .price-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px;}
+  .price{border:1px solid rgba(255,255,255,.1); border-radius:var(--radius); padding:28px; background:rgba(255,255,255,.03);}
+  .price h3{color:#fff; font-size:1.3rem; margin-bottom:6px;}
+  .price .amount{font-family:'Barlow Condensed',sans-serif; font-weight:700; font-size:2.4rem; color:var(--amber); margin:10px 0 8px;}
+  .price p{color:#aeb7be; font-size:.9rem;}
+  .price-note{margin-top:24px; color:#8e98a0; font-size:.85rem; max-width:80ch;}
+
+  /* Zone */
+  .zone-grid{display:grid; grid-template-columns:1.1fr .9fr; gap:48px; align-items:start;}
+  .chips{display:flex; flex-wrap:wrap; gap:10px;}
+  .chip{display:inline-flex; align-items:center; gap:7px; padding:10px 15px; border-radius:999px; background:var(--card); border:1px solid var(--line); font-size:.93rem; font-weight:500;}
+  .chip.main{background:var(--ink); color:#fff; border-color:var(--ink);}
+  .zone-card{background:var(--amber); border-radius:22px; padding:34px; color:var(--ink);}
+  .zone-card h3{font-size:1.8rem; margin-bottom:10px;}
+  .zone-card p{margin-bottom:22px; color:#3b2a06;}
+
+  /* FAQ */
+  .faq{max-width:840px;}
+  details{background:var(--card); border:1px solid var(--line); border-radius:14px; margin-bottom:10px; overflow:hidden;}
+  summary{list-style:none; cursor:pointer; padding:20px 22px; display:flex; justify-content:space-between; align-items:center; gap:20px; font-weight:600; font-size:1.02rem; color:var(--ink);}
+  summary::-webkit-details-marker{display:none;}
+  summary .pm{flex-shrink:0; width:28px; height:28px; border-radius:8px; background:var(--amber-soft); color:var(--amber-2); display:flex; align-items:center; justify-content:center; font-size:1.2rem; transition:transform .2s;}
+  details[open] summary .pm{transform:rotate(45deg);}
+  details p{padding:0 22px 20px; color:var(--muted); font-size:.97rem;}
+
+  /* CTA */
+  .cta{background:var(--ink); border-radius:28px; padding:56px; display:grid; grid-template-columns:1.3fr .7fr; gap:32px; align-items:center; position:relative; overflow:hidden;}
+  .cta::before{content:""; position:absolute; right:-80px; top:-80px; width:320px; height:320px; border-radius:50%; background:radial-gradient(circle, rgba(245,166,35,.35), transparent 70%);}
+  .cta h2{color:#fff; font-size:clamp(1.9rem,3.4vw,2.6rem); margin-bottom:10px;}
+  .cta p{color:#b6bfc6;}
+  .cta-actions{display:flex; flex-direction:column; gap:10px; position:relative;}
+
+  /* Footer */
+  footer{background:var(--ink); color:#9aa4ac; padding:64px 0 28px; margin-top:96px;}
+  .foot{display:grid; grid-template-columns:1.4fr 1fr 1fr 1.2fr; gap:36px; padding-bottom:36px; border-bottom:1px solid rgba(255,255,255,.08);}
+  .foot h4{color:#fff; font-family:'Inter',sans-serif; font-size:.9rem; font-weight:600; margin-bottom:14px;}
+  .foot ul{list-style:none; display:grid; gap:9px; font-size:.9rem;}
+  .foot a:hover{color:var(--amber);}
+  .foot .brand-name{color:#fff;}
+  .foot-about{font-size:.88rem; margin-top:14px; max-width:34ch;}
+  .foot-bottom{padding-top:22px; display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; font-size:.82rem; color:#7a848c;}
+  .foot-bottom a{text-decoration:underline; text-underline-offset:3px;}
+
+  /* Barre mobile */
+  .mobile-bar{display:none;}
+
+  @media (max-width:980px){
+    nav.links, .nav-cta{display:none;}
+    .burger{display:flex;}
+    .hero .wrap{grid-template-columns:1fr; gap:40px; padding-top:56px; padding-bottom:64px;}
+    .services, .price-grid{grid-template-columns:repeat(2,1fr);}
+    .process{grid-template-columns:repeat(2,1fr);}
+    .about-grid, .zone-grid{grid-template-columns:1fr; gap:40px;}
+    .about-visual{max-width:420px;}
+    .cta{grid-template-columns:1fr; padding:40px 28px;}
+    .foot{grid-template-columns:1fr 1fr;}
+    .mobile-bar{display:flex; position:fixed; left:0; right:0; bottom:0; z-index:60; gap:10px; padding:10px 16px calc(10px + env(safe-area-inset-bottom)); background:rgba(16,20,24,.96); backdrop-filter:blur(8px);}
+    .mobile-bar .btn{flex:1;}
+    body{padding-bottom:76px;}
+  }
+  @media (max-width:640px){
+    section{padding:72px 0;}
+    .wrap{padding:0 16px;}
+    .services, .price-grid, .process, .checks, .foot{grid-template-columns:1fr;}
+    .hero-cta .btn{width:100%;}
+    .brand-sub{display:none;}
+  }
+  @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important;} html{scroll-behavior:auto;}}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="index.html" aria-label="ElecDepanne – accueil">
+      <img src="logo.svg" alt="" width="42" height="42">
+      <div class="brand-name">Elec<span>Depanne</span><span class="brand-sub">Électricien · Le Mans · 24h/24</span></div>
+    </a>
+    <nav class="links" aria-label="Navigation principale">
+      <a href="#interventions">Interventions</a>
+      <a href="#apropos">À propos</a>
+      <a href="#tarifs">Tarifs</a>
+      <a href="#zone">Zone</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-line" href="tel:+33780823273">07 80 82 32 73</a>
+      <a class="btn btn-wa" href="https://wa.me/33780823273" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+    <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu-mobile">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="#101418" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="menu-mobile">
+    <a href="#interventions">Interventions</a>
+    <a href="#apropos">À propos</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#zone">Zone d'intervention</a>
+    <a href="#faq">Questions fréquentes</a>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <div class="pill"><span class="live"></span> Joignable maintenant · 24h/24, 7j/7</div>
+      <h1>Électricien de dépannage <em>au Mans</em>, jour et nuit.</h1>
+      <p class="lead">Panne de courant, disjoncteur qui saute, tableau électrique défaillant : Cyril Lumineau, artisan électricien, intervient au Mans et dans toute l'agglomération, week-ends et jours fériés compris. Devis gratuit avant chaque intervention.</p>
+      <div class="hero-cta">
+        <a class="btn btn-amber" href="tel:+33780823273">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke="#101418" stroke-width="2" stroke-linejoin="round"/></svg>
+          Appeler le 07 80 82 32 73
+        </a>
+        <a class="btn btn-ghost" href="https://wa.me/33780823273" target="_blank" rel="noopener">Écrire sur WhatsApp</a>
+      </div>
+      <div class="hero-trust">
+        <div><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#f5a623" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Devis gratuit</div>
+        <div><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#f5a623" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Entreprise déclarée (SIRET)</div>
+        <div><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#f5a623" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Le Mans &amp; Sarthe (72)</div>
+      </div>
+    </div>
+
+    <aside class="hero-card" aria-label="Comment se passe un dépannage">
+      <h2>Une panne ? Voici ce qui se passe.</h2>
+      <p>Simple, rapide, sans surprise sur le prix.</p>
+      <ol class="steps-mini">
+        <li><b>1</b><div><strong>Vous appelez ou écrivez</strong><span>Décrivez la panne, envoyez une photo du tableau.</span></div></li>
+        <li><b>2</b><div><strong>Diagnostic &amp; devis gratuit</strong><span>Le prix est annoncé avant tout déplacement.</span></div></li>
+        <li><b>3</b><div><strong>Intervention &amp; remise en service</strong><span>Réparation sécurisée et circuits testés.</span></div></li>
+      </ol>
+      <a class="btn btn-wa" href="https://wa.me/33780823273?text=Bonjour%2C%20j%27ai%20une%20panne%20%C3%A9lectrique%20%C3%A0%20" target="_blank" rel="noopener">Envoyer ma panne sur WhatsApp</a>
+    </aside>
+  </div>
+</section>
+
+<section id="interventions">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Interventions</div>
+      <h2>Tous vos dépannages électriques au Mans</h2>
+      <p>De l'urgence de nuit aux travaux programmés, chaque intervention commence par un diagnostic et un devis gratuit.</p>
+    </div>
+    <div class="services">
+      <article class="svc urgent">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" stroke="#f5a623" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+        <h3>Dépannage d'urgence <span class="tag">24h/24</span></h3>
+        <p>Panne totale ou partielle, odeur de brûlé, prise qui chauffe : intervention rapide et mise en sécurité immédiate.</p>
+      </article>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3Z" stroke="#d98c0a" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Panne de courant</h3>
+        <p>Coupure générale ou d'un seul circuit : recherche de la cause (court-circuit, défaut d'isolement, appareil) et rétablissement.</p>
+      </article>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="3" width="16" height="18" rx="2" stroke="#d98c0a" stroke-width="1.8"/><path d="M8 8v3M12 8v3M16 8v3M8 15h8" stroke="#d98c0a" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Tableau &amp; disjoncteur</h3>
+        <p>Disjoncteur qui saute, différentiel qui ne réarme pas, tableau vétuste : réparation, remplacement ou mise à niveau.</p>
+      </article>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 6v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V6l-8-4Z" stroke="#d98c0a" stroke-width="1.8"/><path d="m9 12 2 2 4-4" stroke="#d98c0a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        <h3>Mise en sécurité</h3>
+        <p>Installation ancienne ou non conforme : mise en sécurité et mise aux normes NF C 15-100 de votre logement.</p>
+      </article>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="6" y="2" width="12" height="20" rx="2" stroke="#d98c0a" stroke-width="1.8"/><circle cx="12" cy="8" r="2.5" stroke="#d98c0a" stroke-width="1.8"/><path d="M9 15h6M9 18h6" stroke="#d98c0a" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+        <h3>Interphone &amp; visiophone</h3>
+        <p>Sonnette muette, visiophone en panne, gâche électrique qui ne répond plus : diagnostic et remise en service.</p>
+      </article>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 11 12 4l9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1v-9Z" stroke="#d98c0a" stroke-width="1.8" stroke-linejoin="round"/></svg></div>
+        <h3>Installation &amp; rénovation</h3>
+        <p>Création de circuits, prises, éclairage, rénovation électrique complète d'une maison, d'un appartement ou d'un local.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="about" id="apropos">
+  <div class="wrap about-grid">
+    <div class="about-visual">
+      <img src="logo.svg" alt="Logo ElecDepanne" width="200" height="200">
+      <div class="about-badge">
+        <div><strong>Cyril Lumineau</strong><span>Artisan électricien · ElecDepanne</span></div>
+        <div style="text-align:right;"><strong>72</strong><span>Sarthe</span></div>
+      </div>
+    </div>
+    <div>
+      <div class="kicker">À propos</div>
+      <h2 style="font-size:clamp(2rem,3.6vw,2.9rem); margin-bottom:18px;">Un artisan local, un seul interlocuteur</h2>
+      <p>Derrière ElecDepanne, il y a <strong>Cyril Lumineau</strong>, électricien installé au Grand-Lucé, dans la Sarthe. Quand vous appelez, c'est directement à lui que vous parlez : pas de plateforme, pas de centre d'appels, pas d'intermédiaire.</p>
+      <p>Ma priorité : <strong>remettre votre installation en service en toute sécurité</strong>, vous expliquer clairement l'origine de la panne et vous annoncer le prix avant de commencer.</p>
+      <ul class="checks">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#d98c0a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Prix annoncé avant intervention</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#d98c0a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Facture détaillée remise</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#d98c0a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Particuliers et professionnels</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#d98c0a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Week-ends et jours fériés</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="methode">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Méthode</div>
+      <h2>De votre appel à la remise sous tension</h2>
+    </div>
+    <div class="process">
+      <div class="step"><div class="n">01</div><h3>Votre contact</h3><p>Par téléphone, WhatsApp ou email, 24h/24. Un premier diagnostic est posé à distance.</p></div>
+      <div class="step"><div class="n">02</div><h3>Devis gratuit</h3><p>Le montant est fixé avant l'intervention, sans engagement de votre part.</p></div>
+      <div class="step"><div class="n">03</div><h3>Intervention</h3><p>Déplacement au Mans ou dans les environs, réparation dans le respect des normes.</p></div>
+      <div class="step"><div class="n">04</div><h3>Vérification</h3><p>Circuits testés et remis en service avant le départ, facture remise.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="tarifs">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Tarifs</div>
+      <h2>Tarifs sur devis, gratuit et sans engagement</h2>
+      <p>Chaque panne est différente : le prix dépend du diagnostic, des pièces à remplacer et de l'heure d'intervention. Vous recevez donc toujours un devis avant que les travaux commencent.</p>
+    </div>
+    <div class="price-grid">
+      <div class="price"><h3>Devis gratuit</h3><div class="amount">0 €</div><p>Diagnostic à distance par téléphone ou WhatsApp, puis devis établi sans engagement.</p></div>
+      <div class="price"><h3>Prix annoncé à l'avance</h3><div class="amount">Avant</div><p>Le montant est validé avec vous avant toute intervention. Aucune mauvaise surprise.</p></div>
+      <div class="price"><h3>Facture détaillée</h3><div class="amount">Claire</div><p>Main-d'œuvre, déplacement et fournitures détaillés poste par poste.</p></div>
+    </div>
+    <p class="price-note">TVA non applicable, article 293 B du CGI. Un devis écrit est remis avant toute intervention, conformément à l'arrêté du 24 janvier 2017 relatif à la publicité des prix des prestations de dépannage.</p>
+  </div>
+</section>
+
+<section id="zone">
+  <div class="wrap zone-grid">
+    <div>
+      <div class="head" style="margin-bottom:28px;">
+        <div class="kicker">Zone d'intervention</div>
+        <h2>Le Mans et ses alentours</h2>
+        <p>ElecDepanne intervient au Mans (y compris Pontlieue, Les Sablons, Bellevue, le centre-ville…) et dans les communes de la Sarthe autour de l'agglomération.</p>
+      </div>
+      <div class="chips">
+        <span class="chip main">Le Mans</span>
+        <span class="chip">Allonnes</span>
+        <span class="chip">Arnage</span>
+        <span class="chip">Changé</span>
+        <span class="chip">Coulaines</span>
+        <span class="chip">Sargé-lès-le-Mans</span>
+        <span class="chip">La Chapelle-Saint-Aubin</span>
+        <span class="chip">Ruaudin</span>
+        <span class="chip">Mulsanne</span>
+        <span class="chip">Yvré-l'Évêque</span>
+        <span class="chip">Parigné-l'Évêque</span>
+        <span class="chip">Le Grand-Lucé</span>
+        <span class="chip">La Chartre-sur-le-Loir</span>
+        <span class="chip">et alentours</span>
+      </div>
+    </div>
+    <div class="zone-card">
+      <h3>Votre commune n'est pas listée ?</h3>
+      <p>Nous couvrons un large secteur autour du Mans. Envoyez-nous simplement le nom de votre commune pour savoir si nous intervenons chez vous.</p>
+      <a class="btn btn-dark" href="https://wa.me/33780823273?text=Bonjour%2C%20intervenez-vous%20%C3%A0%20" target="_blank" rel="noopener">Vérifier ma commune</a>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding-top:0;">
+  <div class="wrap faq">
+    <div class="head">
+      <div class="kicker">Questions fréquentes</div>
+      <h2>Ce qu'on nous demande le plus souvent</h2>
+    </div>
+    <details open>
+      <summary>Intervenez-vous vraiment 24h/24 et 7j/7 ?<span class="pm">+</span></summary>
+      <p>Oui. Vous pouvez nous joindre au 07 80 82 32 73 (appel ou WhatsApp) à toute heure, y compris la nuit, le week-end et les jours fériés.</p>
+    </details>
+    <details>
+      <summary>Le devis est-il gratuit ?<span class="pm">+</span></summary>
+      <p>Oui. Un premier diagnostic est posé à distance, puis le devis est établi avant toute intervention. Rien ne démarre sans votre accord.</p>
+    </details>
+    <details>
+      <summary>Que faire quand tout disjoncte chez moi ?<span class="pm">+</span></summary>
+      <p>Débranchez les appareils récemment branchés, puis réarmez le disjoncteur général une seule fois. S'il retombe aussitôt, n'insistez pas : contactez-nous, le diagnostic peut commencer à distance.</p>
+    </details>
+    <details>
+      <summary>Je sens une odeur de brûlé ou une prise chauffe, que faire ?<span class="pm">+</span></summary>
+      <p>Coupez immédiatement le disjoncteur général, ne touchez pas la prise et appelez-nous. En cas de fumée ou de flammes, appelez d'abord les pompiers (18 ou 112).</p>
+    </details>
+    <details>
+      <summary>Quelles communes couvrez-vous autour du Mans ?<span class="pm">+</span></summary>
+      <p>Le Mans, Allonnes, Arnage, Changé, Coulaines, Sargé-lès-le-Mans, Mulsanne, Ruaudin, Yvré-l'Évêque et les communes voisines de la Sarthe. Contactez-nous pour vérifier votre secteur.</p>
+    </details>
+    <details>
+      <summary>Intervenez-vous pour les professionnels ?<span class="pm">+</span></summary>
+      <p>Oui : commerces, bureaux, locaux d'activité et syndics de copropriété, avec les mêmes engagements de disponibilité et de devis préalable.</p>
+    </details>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="cta">
+    <div style="position:relative;">
+      <h2>Une urgence électrique au Mans ?</h2>
+      <p>Appelez ou décrivez votre panne sur WhatsApp : diagnostic, devis gratuit et délai d'intervention annoncés immédiatement.</p>
+    </div>
+    <div class="cta-actions">
+      <a class="btn btn-amber" href="tel:+33780823273">Appeler le 07 80 82 32 73</a>
+      <a class="btn btn-wa" href="https://wa.me/33780823273" target="_blank" rel="noopener">WhatsApp 24h/24</a>
+      <a class="btn btn-ghost" href="mailto:elecdepannecontact@gmail.com">elecdepannecontact@gmail.com</a>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><img src="logo.svg" alt="" width="42" height="42"><div class="brand-name">Elec<span>Depanne</span></div></a>
+        <p class="foot-about">Électricien de dépannage au Mans et dans la Sarthe, joignable 24h/24 et 7j/7. Entreprise individuelle de Cyril Lumineau.</p>
+      </div>
+      <div>
+        <h4>Interventions</h4>
+        <ul>
+          <li><a href="#interventions">Dépannage d'urgence</a></li>
+          <li><a href="#interventions">Panne de courant</a></li>
+          <li><a href="#interventions">Tableau &amp; disjoncteur</a></li>
+          <li><a href="#interventions">Mise en sécurité</a></li>
+          <li><a href="#interventions">Interphone &amp; visiophone</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#zone">Zone d'intervention</a></li>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+33780823273">07 80 82 32 73</a></li>
+          <li><a href="https://wa.me/33780823273" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:elecdepannecontact@gmail.com">elecdepannecontact@gmail.com</a></li>
+          <li>2B rue Alexandre Martin<br>72150 Le Grand-Lucé</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 ElecDepanne – Cyril Lumineau, entrepreneur individuel · SIRET 450 752 373 00040</div>
+      <div><a href="mentions-legales.html">Mentions légales &amp; confidentialité</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="mobile-bar">
+  <a class="btn btn-amber" href="tel:+33780823273">Appeler</a>
+  <a class="btn btn-wa" href="https://wa.me/33780823273" target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<script>
+  const burger = document.querySelector('.burger');
+  const menu = document.getElementById('menu-mobile');
+  burger.addEventListener('click', () => {
+    const open = menu.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open);
+  });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    menu.classList.remove('open'); burger.setAttribute('aria-expanded', 'false');
+  }));
+</script>
+</body>
+</html>
